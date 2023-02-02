@@ -1,0 +1,17 @@
+GET http://localhost:3000/todos
+
+###
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+    "msg": "Nauciti model",
+    "level": "crucial"
+}
+
+####
+GET http://localhost:3000/todos/normal
+
+####
+DELETE http://localhost:3000/todos/63da8b2c122f00998a749019
+
